@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: "#262a33",
+        black: "#0047AB",
         white: "#fff1e5",
         slate: {
           100: "#f2dfce",
