@@ -74,15 +74,14 @@ export const Manager = () => {
       <h3 className="font-bold text-2xl">Contract Management</h3>
       <div className="flex flex-col gap-2">
         <p className="max-w-prose">
-          You can remove any contract from Blacksmith that you have imported or
+          You can remove any contract from LinkPool UI that you have imported or
           verified. You can import verified contracts from Etherscan (currently
           Ethereum mainnet only) by providing a contract address. You can
           interact with imported contracts by starting an instance of Anvil that{" "}
           <Anchor href="https://book.getfoundry.sh/tutorials/forking-mainnet-with-cast-anvil">
             forks mainnet
           </Anchor>
-          . To avoid rate limits read the Advanced Usage section of the
-          Blacksmith README.
+          . To avoid rate limits read the Advanced Usage section of the README.
         </p>
         <ul>
           <Field

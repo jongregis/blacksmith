@@ -18,7 +18,7 @@ export const Header = ({
         onClick={resetActiveContract}
         className="focus:underline focus:outline-none"
       >
-        Blacksmith
+        LinkPool UI
       </button>
     </h1>
     <section className="flex items-center gap-1">

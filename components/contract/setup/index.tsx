@@ -14,7 +14,7 @@ export const Setup = () => {
   const [verifierUrl, setVerifierUrl] = useState(
     "http://localhost:3000/api/verify"
   );
-  const command = `forge create ${path}:${contractName} --verify --unlocked --from ${deployerAddress} --rpc-url ${rpcUrl} --verifier-url ${verifierUrl} --etherscan-api-key blacksmith`;
+  const command = `forge create ${path}:${contractName} --verify --unlocked --from ${deployerAddress} --rpc-url ${rpcUrl} --verifier-url ${verifierUrl} --etherscan-api-key linkpool`;
 
   const handleAddressChange = (event: ChangeEvent<HTMLInputElement>) => {
     setDeployerAddress(event.target.value);
@@ -57,7 +57,7 @@ export const Setup = () => {
             Forge
           </Anchor>{" "}
           command to deploy your contract to the local testnet and see it appear
-          in Blacksmith. In most cases you will only need to change the{" "}
+          in LinkPool UI. In most cases you will only need to change the{" "}
           <span className="italic">path</span> and{" "}
           <span className="italic">contract name</span> fields.
         </p>
@@ -155,7 +155,7 @@ export const Setup = () => {
               </span>
               {` \\`}
             </div>
-            <div>{`--etherscan-api-key blacksmith`}</div>
+            <div>{`--etherscan-api-key linkpool`}</div>
           </div>
           <button
             className="text-black focus:outline-none border border-black rounded p-2 focus:bg-black focus:text-white"

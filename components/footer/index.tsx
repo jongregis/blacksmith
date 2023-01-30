@@ -5,7 +5,7 @@ export const Footer = () => (
   <footer className="flex flex-col">
     <Switch />
     <div className="text-sm px-1.5">
-      <span>
+      {/* <span>
         Created by{" "}
         <Anchor href="https://twitter.com/0xholypanda">0xholypanda</Anchor>
       </span>
@@ -16,7 +16,7 @@ export const Footer = () => (
       <span> | </span>
       <Anchor href="https://github.com/blacksmith-eth/blacksmith/issues/new/choose">
         report an issue
-      </Anchor>
+      </Anchor> */}
     </div>
   </footer>
 );

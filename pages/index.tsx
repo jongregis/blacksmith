@@ -20,11 +20,11 @@ const Home: NextPage = () => {
   return (
     <section className="text-black dark:text-white dark:bg-black min-h-screen max-h-screen flex flex-col overflow-hidden selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black">
       <Head>
-        <title>Blacksmith</title>
+        <title>LinkPool UI</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Blacksmith is an adaptive user interface for smart contract interaction."
+          content="LinkPool UI is an adaptive user interface for smart contract interaction."
         />
       </Head>
       <Header
